@@ -1,0 +1,9 @@
+{
+  "books": [
+    {
+      "name": "Entrega contínua em Android",
+      "price": 29.90,
+      "description": "Independente de ser um desenvolvedor freelancer ou um time de desenvolvimento de software já maduro, um item especial ao qual o responsável pelo desenvolvimento de um novo software deve dar especial atenção é a entrega do software ao cliente. Como será realizada a entrega? Com qual frequência? Será adotado algum processo automatizado ou a entrega do software será manual? Como o software é validado antes da entrega? Embora já tenha-se discutido sobre essas questões, um vácuo literário permanece quando pensamos em entrega contínua de aplicações mobile. Neste livro, Roger Silva vem preencher esta lacuna, explicando como automatizar a distribuição do app para o Google Play, como executar testes automatizados sobre as suas funcionalidades e disponibilizá-lo para a equipe de testes em vários dispositivos. Você verá como tratar todos esses requisitos para que, quando um desenvolvedor comitar seu código-fonte para um repositório de código remoto, uma bateria de testes automatizados seja executada, acompanhada por uma análise de cobertura de código-fonte, verificações de regras de negócios e, por fim, chegando até a etapa de distribuição automatizada do app para o Google Play. "
+    }
+  ]
+}
