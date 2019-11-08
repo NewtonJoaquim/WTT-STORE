@@ -3,11 +3,14 @@ import data from '../../books.json'
 import Button from '@material-ui/core/Button';
 import Fab from '@material-ui/core/Fab';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
-import {useHistory} from 'react-router-dom'
 
-const BookList =() => {
-  
-    let history = useHistory();
+export default class BookList extends React.Component {
+    constructor(props){
+      super(props);
+    }
+
+
+    render(){
     return (
     <div>
       {data.books.map(element => {
@@ -23,11 +26,10 @@ const BookList =() => {
           </li>
           )
       })}
-      <Fab color="primary" aria-label="shop" onClick={() => history.push('/shopping-cart')}>
+      <Fab color="primary" aria-label="shop" onClick={() => this.props.history.push('/shopping-cart')}>
         <ShoppingCartIcon />
       </Fab>
       </div>
       );
+    }
 }
-
-export default BookList;
