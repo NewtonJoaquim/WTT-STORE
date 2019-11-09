@@ -14,7 +14,7 @@ const Login = () => {
 
     return (
       <div>
-        <input type="text" placeholed="Username" value={userName} onChange={e => setUserName(e.target.value)}/>
+        <input type="text" placeholder="Username" value={userName} onChange={e => setUserName(e.target.value)}/>
         <br />
         <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)}/>
         <br />
