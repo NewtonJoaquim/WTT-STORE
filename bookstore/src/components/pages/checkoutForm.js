@@ -1,29 +1,36 @@
 import React, {useState} from "react";
 import {useHistory} from 'react-router-dom'
 
-const CheckoutForm = () => {
-    let history = useHistory();
-    const [userName, setUserName] = useState('');
-    const [birthday, setBirthday] = useState('');
-    const [email, setEmail] = useState('');
+const CheckoutForm = ({handleClick, userName, birthday, email, setUsername, setBirthday, setEmail}) => {
+    // const [userName, setUserName] = useState('');
+    // const [birthday, setBirthday] = useState('');
+    // const [email, setEmail] = useState('');
 
-    const handleClick = (userName, password) => {
-        console.log(userName);
-        console.log(password);
-        history.push('/booklist')
-    }
+    // const handleClick = (userName, birthday, email) => {
+    //     console.log(userName);
+    //     history.push('/booklist')
+    // }
 
     return (
-      <div>
-        <input type="text" placeholder="Nome Completo" value={userName} onChange={e => setUserName(e.target.value)}/>
+      <div style={{backgroundColor:'white'}}>
+          <label style={{padding:10}}>
+              Nome Completo:
+        <input type="text" placeholder="Nome Completo" value={userName} onChange={setUsername}/>
+        </label>
         <br />
-        <input type="date" placeholder="Data de Nascimento" value={password} onChange={e => setPassword(e.target.value)}/>
+        <label style={{padding:10}}>
+            Data de Nascimento: 
+        <input type="date" placeholder="Data de Nascimento" value={birthday} onChange={setBirthday}/>
+        </label>
         <br />
-        <input type="password" placeholder="Email" value={password} onChange={e => setPassword(e.target.value)}/>
+        <label style={{padding:10}}>
+            Email: 
+        <input type="text" placeholder="Email" value={email} onChange={setEmail}/>
+        </label>
         <br />
-        <button onClick={() => handleClick(userName, password)}>Finalizar</button>
+        <button onClick={handleClick}>Finalizar</button>
       </div>
     );
 }
 
-export default Login;
+export default CheckoutForm;

@@ -1,17 +1,37 @@
 import React from "react";
-import data from '../../books.json'
 import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import Modal from '@material-ui/core/Modal';
 
 import ShoppingCart from "./shopping-cart";
+import data from '../../books.json'
+import CheckoutForm from "./checkoutForm";
 
 class BookList extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      username: "",
+      birthday: "",
+      email: "",
+      modalOpen: false,
+    }
+
+    this.onFinalizarCompraClicked.bind(this);
   }
 
   onAddBookClicked(book) {
     this.props.addBook(book);
+  }
+
+  onFinalizarCompraClicked = () => {
+    this.setState({ modalOpen: true })
+    //this.props.history.push('/shopping-cart')
+  }
+
+  onFormFinished = () => {
+    alert(this.state.email);
+
   }
 
   render() {
@@ -27,7 +47,7 @@ class BookList extends React.Component {
               </div>
             )
           })}
-          <Button color="primary" onClick={() => this.props.history.push('/shopping-cart')} style={{ marginTop: 10 }}>
+          <Button color="primary" onClick={this.onFinalizarCompraClicked} style={{ marginTop: 10 }}>
             <ShoppingCartIcon />
             Finalizar Compra
       </Button>
@@ -36,6 +56,21 @@ class BookList extends React.Component {
           <h3>Carrinho</h3>
           <ShoppingCart />
         </div>
+        <Modal
+          open={this.state.modalOpen}
+          onClose={() => this.setState({ modalOpen: false })}
+        >
+          <div style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <CheckoutForm
+              userName={this.state.username}
+              setUsername={event => this.setState({ username: event.target.value })}
+              birthday={this.state.birthday}
+              setBirthday={event => this.setState({ birthday: event.target.value })}
+              email={this.state.email}
+              setEmail={event => this.setState({ email: event.target.value })}
+              handleClick={this.onFormFinished} />
+          </div>
+        </Modal>
       </div>
     );
   }
