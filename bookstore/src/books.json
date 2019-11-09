@@ -1,16 +1,40 @@
 {
   "books": [
     {
-      "id":0,
+      "code":1,
       "name": "Entrega contínua em Android",
       "price": 29.90,
       "description": "Independente de ser um desenvolvedor freelancer ou um time de desenvolvimento de software já maduro, um item especial ao qual o responsável pelo desenvolvimento de um novo software deve dar especial atenção é a entrega do software ao cliente. Como será realizada a entrega? Com qual frequência? Será adotado algum processo automatizado ou a entrega do software será manual? Como o software é validado antes da entrega? Embora já tenha-se discutido sobre essas questões, um vácuo literário permanece quando pensamos em entrega contínua de aplicações mobile. Neste livro, Roger Silva vem preencher esta lacuna, explicando como automatizar a distribuição do app para o Google Play, como executar testes automatizados sobre as suas funcionalidades e disponibilizá-lo para a equipe de testes em vários dispositivos. Você verá como tratar todos esses requisitos para que, quando um desenvolvedor comitar seu código-fonte para um repositório de código remoto, uma bateria de testes automatizados seja executada, acompanhada por uma análise de cobertura de código-fonte, verificações de regras de negócios e, por fim, chegando até a etapa de distribuição automatizada do app para o Google Play. "
     },
     {
-      "id":1,
-      "name": "Entrega contínua em Android",
+      "code":2,
+      "name": "Angular 8 e Firebase",
       "price": 29.90,
-      "description": "Independente de ser um desenvolvedor freelancer ou um time de desenvolvimento de software já maduro, um item especial ao qual o responsável pelo desenvolvimento de um novo software deve dar especial atenção é a entrega do software ao cliente. Como será realizada a entrega? Com qual frequência? Será adotado algum processo automatizado ou a entrega do software será manual? Como o software é validado antes da entrega? Embora já tenha-se discutido sobre essas questões, um vácuo literário permanece quando pensamos em entrega contínua de aplicações mobile. Neste livro, Roger Silva vem preencher esta lacuna, explicando como automatizar a distribuição do app para o Google Play, como executar testes automatizados sobre as suas funcionalidades e disponibilizá-lo para a equipe de testes em vários dispositivos. Você verá como tratar todos esses requisitos para que, quando um desenvolvedor comitar seu código-fonte para um repositório de código remoto, uma bateria de testes automatizados seja executada, acompanhada por uma análise de cobertura de código-fonte, verificações de regras de negócios e, por fim, chegando até a etapa de distribuição automatizada do app para o Google Play. "
+      "description": " No desenvolvimento de aplicações web e mobile, há disponível uma quantidade expressiva de linguagens, frameworks e ferramentas. Nessa imensidão, é comum se questionar ou até ter inseguranças sobre qual o melhor caminho para a construção neste segmento. O Angular é uma plataforma que facilita a construção de aplicativos, combinando templates, injeção de dependências, tudo integrado às melhores práticas de desenvolvimento. Neste livro, Kheronn Machado apresenta as principais características do Angular 8, através da implementação prática de uma aplicação. Você vai explorar tópicos como componentes, serviços, roteamentos e validação de formulários, dentro dos requisitos do projeto. Por fim, o autor mostra como integrar a aplicação ao Firebase, do Google, utilizando diversos recursos como banco de dados, autenticação, armazenamento de arquivos, execução de funções no lado do servidor e hospedagem do sistema. "
+    },
+    {
+      "code":3,
+      "name": "Front-end com Vue.js ",
+      "price": 29.90,
+      "description": " Se você acha que é preciso muito tempo e códigos HTML, CSS e JavaScript embolados para conseguir construir um layout moderno e interativo, com um curto tempo de carregamento e funcionamento em qualquer plataforma, com certeza não conhece o Vue.js. Ele é um framework feito em JavaScript, que tem como principal objetivo o reaproveitamento de código e uma curva de aprendizagem pequena. Neste livro, Leonardo Vilarinho traz um guia de consulta com exercícios práticos ao final de cada capítulo. Você verá uma documentação mais compacta do Vue.js, para conhecer esse framework sem complicações. Você aprenderá a inserir, exibir e manipular dados, usar e reutilizar componentes, criar rotas, diretivas e plugins personalizados, gerenciar estados, e fazer testes automatizados. Ao final, você vai construir uma aplicação usando o que foi visto, uma API feita com o Laravel e o runner de testes AVA. "
+    },
+    {
+      "code":4,
+      "name": "Ember.js ",
+      "price": 29.90,
+      "description": " Ember.js é um framework ambicioso com o qual podemos desenvolver qualquer aplicação web. Com ele, é possível reutilizar bibliotecas já escritas e amplamente conhecidas na comunidade, como o Twitter Bootstrap e o Moment.js, além de persistir dados utilizando requisições assíncronas de forma transparente, escrever testes unitários, de integração ou de aceitação de maneira organizada. Seu código poderá usar os recursos mais atuais da ECMAScript, delegando a preocupação da incompatibilidade para um transpilador que também minificará o seu código para ambiente de produção. Neste livro, Clairton Rodrigo apresenta o Ember.js 2.11, abordando seus principais conceitos: desde a instalação e arquitetura, até a criação de componentes, helpers, testes e add-ons. Utilizando-se do exemplo da criação de uma agenda telefônica, você acompanhará na prática a aplicação dos principais recursos deste framework. "
+    },
+    {
+      "code":5,
+      "name": "Protractor",
+      "price": 29.90,
+      "description": " Testes automatizados são uma parte muito importante no processo de desenvolvimento de software, já que são a base para garantir feedback rápido após mudanças em aplicações e servem como fonte de documentação. Protractor é um framework open source de testes end-to-end automatizados para aplicações AngularJS, utilizado para a execução de testes em aplicações, interagindo com elas como um usuário real faria, em navegadores reais, tais como Chrome e Firefox. Neste livro, Walmyr Filho apresenta uma coleção de práticas para implementar testes end-to-end automatizados ao processo de desenvolvimento de aplicações web, utilizando o framework Protractor. Durante a leitura, você verá como utilizar o padrão Page Objects, node modules, testes de revisão visual, testes na nuvem e para o mobile, como criar testes automatizados com práticas de integração contínua e muito mais. "
+    },
+    {
+      "code":6,
+      "name": "Mean",
+      "price": 29.90,
+      "description": " Já pensou em desenvolver aplicações web ricas com recursos complexos, extremamente performáticos e robustos? É isso que você conseguirá fazer com a stack MEAN. Unindo várias das principais tecnologias do mercado, como o MongoDB, Express, Angular e Node.js em cima da linguagem JavaScript, é possível criar aplicações em um curto espaço de tempo em uma linguagem sobre a qual todo desenvolvedor web possui algum conhecimento. Neste livro completíssimo, Flávio Almeida vai ensinar a desenvolver com essa poderosa stack, passando pelos problemas encontrados no dia a dia, destrinchando cada um dos seus elementos fundamentais e indo até o deploy e o teste da aplicação. É um livro que todo desenvolvedor web precisa ler. "
     }
   ]
 }

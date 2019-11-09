@@ -1,9 +1,33 @@
 import React from "react";
+import { connect } from 'react-redux';
 
-export default class ShoppingCart extends React.Component{
-    render(){
-        return(
-            <div>Teste</div>
+import { removeBook, removeAllBooks } from "../../actions/shopCart.action";
+
+class ShoppingCart extends React.Component {
+
+    componentDidMount() {
+        console.log(this.props.shopCart);
+    }
+
+    render() {
+        return (
+            <div>
+                {this.props.shopCart.map(element => {
+                    return (
+                        <li key={element.id} style={{ padding: 10 }}>
+                            {element.name}
+                        </li>
+                    )
+                })}
+            </div>
         )
     }
 }
+
+const mapStateToProps = (state) => {
+    return {
+        shopCart: state.shopCart
+    }
+}
+
+export default connect(mapStateToProps, { removeBook, removeAllBooks })(ShoppingCart);

@@ -5,7 +5,8 @@ const INITIAL_STATE = [];
 const shopCartReducer = (state=INITIAL_STATE, action) =>{
     switch(action.type){
         case ADD_BOOK:
-            let newState = action.payload
+            let id = state.length;
+            let newState = {...action.payload, id}
             return [...state, newState];
         case REMOVE_ALL_BOOKS:
             state = [];
