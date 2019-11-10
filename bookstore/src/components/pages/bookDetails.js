@@ -40,7 +40,7 @@ class BookDetails extends React.Component {
                         )
                     }
                     //return(<div>{element.code}</div>)
-
+                    return null;
                 })}
             </div>
         )

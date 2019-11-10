@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Modal from '@material-ui/core/Modal';
 
-import ShoppingCart from "../shopping-cart";
+import ShoppingCart from "../shoppingCart";
 import data from '../../books.json'
 import CheckoutForm from "../checkoutForm";
 import { removeAllBooks } from "../../actions/shopCart.action";
@@ -28,7 +28,6 @@ class BookList extends React.Component {
 
   onFinalizarCompraClicked = () => {
     this.setState({ modalOpen: true })
-    //this.props.history.push('/shopping-cart')
   }
 
   onFormFinished = () => {
@@ -52,14 +51,15 @@ class BookList extends React.Component {
                 </div>
               )
             })}
-            <Button color="primary" onClick={this.onFinalizarCompraClicked} style={{ marginTop: 10 }}>
-              <ShoppingCartIcon />
-              Finalizar Compra
-      </Button>
+
           </div>
           <div>
             <h3>Carrinho</h3>
             <ShoppingCart />
+            <Button color="primary" onClick={this.onFinalizarCompraClicked} style={{ marginTop: 10 }}>
+              <ShoppingCartIcon />
+              Finalizar Compra
+            </Button>
           </div>
           <Modal
             open={this.state.modalOpen}

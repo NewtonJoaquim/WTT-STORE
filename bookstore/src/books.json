@@ -67,12 +67,6 @@
       "description": " Mobile é a plataforma do futuro, e as Apps são parte importante desse cenário. Mas programar pensando no mundo multiplataforma de hoje é trabalhoso e custoso, sobretudo para quem vem da Web e está acostumado à portabilidade do HTML, do CSS e do JavaScript. Neste livro, Sérgio Lopes mostra o Cordova, a solução para Apps híbridas mais usada no mundo. Escreva um único código baseado em HTML5 e tenha Apps de verdade para iOS, Android e Windows Phone. Com projetos práticos, você vai ver Cordova desde o início até casos complexos de integração com hardware. Vai entender onde o PhoneGap se encaixa e até criar uma App com Ionic. "
     },
     {
-      "code":11,
-      "name": "Aplicações mobile híbridas com Cordova e PhoneGap ",
-      "price": 29.90,
-      "description": " Mobile é a plataforma do futuro, e as Apps são parte importante desse cenário. Mas programar pensando no mundo multiplataforma de hoje é trabalhoso e custoso, sobretudo para quem vem da Web e está acostumado à portabilidade do HTML, do CSS e do JavaScript. Neste livro, Sérgio Lopes mostra o Cordova, a solução para Apps híbridas mais usada no mundo. Escreva um único código baseado em HTML5 e tenha Apps de verdade para iOS, Android e Windows Phone. Com projetos práticos, você vai ver Cordova desde o início até casos complexos de integração com hardware. Vai entender onde o PhoneGap se encaixa e até criar uma App com Ionic. "
-    },
-    {
       "code":12,
       "name": "Progressive Web Apps ",
       "price": 29.90,

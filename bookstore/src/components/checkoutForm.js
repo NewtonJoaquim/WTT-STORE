@@ -1,5 +1,4 @@
-import React, {useState} from "react";
-import {useHistory} from 'react-router-dom'
+import React from "react";
 
 const CheckoutForm = ({handleClick, userName, birthday, email, setUsername, setBirthday, setEmail}) => {
     // const [userName, setUserName] = useState('');

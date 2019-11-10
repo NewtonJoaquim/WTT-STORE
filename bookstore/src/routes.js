@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Login from "./components/pages/login";
-import BookList from "./components/pages/booklist";
+import BookList from "./components/pages/bookList";
 import BookDetails from "./components/pages/bookDetails";
 
 const Routes = () => {
