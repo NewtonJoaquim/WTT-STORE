@@ -51,7 +51,7 @@ class BookList extends React.Component {
               return (
                 <div key={element.code}>
                   <ListItem button onClick={() => this.props.history.push(`/book-details/${element.code}`)}>
-                    <ListItemText primary={element.name} secondary={element.subtitle}/>
+                    <ListItemText primary={element.name} secondary={element.subtitle} />
                   </ListItem>
                 </div>
               )
@@ -59,9 +59,9 @@ class BookList extends React.Component {
 
           </List>
           <Paper>
-          <Typography variant="h5" component="h3">
-        Carrinho
-      </Typography>
+            <Typography variant="h5" component="h3">
+              Carrinho
+            </Typography>
             <ShoppingCart />
             <Button color="primary" onClick={this.onFinalizarCompraClicked} style={{ marginTop: 10 }}>
               <ShoppingCartIcon />
@@ -72,7 +72,7 @@ class BookList extends React.Component {
             open={this.state.modalOpen}
             onClose={() => this.setState({ modalOpen: false })}
           >
-            <div style={{ justifyContent: 'center', alignItems: 'center' }}>
+            <Paper style={{ justifyContent: 'center', alignItems: 'center' }}>
               <CheckoutForm
                 userName={this.state.username}
                 setUsername={event => this.setState({ username: event.target.value })}
@@ -81,7 +81,7 @@ class BookList extends React.Component {
                 email={this.state.email}
                 setEmail={event => this.setState({ email: event.target.value })}
                 handleClick={this.onFormFinished} />
-            </div>
+            </Paper>
           </Modal>
         </div>
       </div>
