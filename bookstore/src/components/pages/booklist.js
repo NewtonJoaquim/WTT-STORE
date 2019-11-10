@@ -3,6 +3,11 @@ import { connect } from 'react-redux';
 import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Modal from '@material-ui/core/Modal';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
+import ListItemText from '@material-ui/core/ListItemText';
+import Paper from '@material-ui/core/Paper';
+import Typography from '@material-ui/core/Typography';
 
 import ShoppingCart from "../shoppingCart";
 import data from '../../books.json'
@@ -41,26 +46,28 @@ class BookList extends React.Component {
       <div>
         <h2>Lista de Livros:</h2>
         <div style={{ display: 'flex', flex: 'auto' }}>
-          <div style={{ flex: 'auto' }}>
+          <List style={{ flex: 'auto' }}>
             {data.books.map(element => {
               return (
                 <div key={element.code}>
-                  <Button variant="outlined" color="primary" onClick={() => this.props.history.push(`/book-details/${element.code}`)}>
-                    {element.name}
-                  </Button>
+                  <ListItem button onClick={() => this.props.history.push(`/book-details/${element.code}`)}>
+                    <ListItemText primary={element.name} secondary={element.subtitle}/>
+                  </ListItem>
                 </div>
               )
             })}
 
-          </div>
-          <div>
-            <h3>Carrinho</h3>
+          </List>
+          <Paper>
+          <Typography variant="h5" component="h3">
+        Carrinho
+      </Typography>
             <ShoppingCart />
             <Button color="primary" onClick={this.onFinalizarCompraClicked} style={{ marginTop: 10 }}>
               <ShoppingCartIcon />
               Finalizar Compra
             </Button>
-          </div>
+          </Paper>
           <Modal
             open={this.state.modalOpen}
             onClose={() => this.setState({ modalOpen: false })}
