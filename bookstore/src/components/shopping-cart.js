@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import RemoveIcon from "@material-ui/icons/Remove";
 
-import { removeBook, removeAllBooks } from "../../actions/shopCart.action";
+import { removeBook, removeAllBooks } from "../actions/shopCart.action";
 
 class ShoppingCart extends React.Component {
 
@@ -20,7 +20,7 @@ class ShoppingCart extends React.Component {
             <div>
                 {this.props.shopCart.map(element => {
                     return (
-                        <div style={{display:'flex'}}>
+                        <div style={{display:'flex'}} key ={element.id}>
                             <li key={element.id} style={{ padding: 10 }}>
                                 {element.name} ({element.price})
                             </li>

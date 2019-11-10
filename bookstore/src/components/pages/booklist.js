@@ -1,11 +1,13 @@
 import React from "react";
+import { connect } from 'react-redux';
 import Button from '@material-ui/core/Button';
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 import Modal from '@material-ui/core/Modal';
 
-import ShoppingCart from "./shopping-cart";
+import ShoppingCart from "../shopping-cart";
 import data from '../../books.json'
-import CheckoutForm from "./checkoutForm";
+import CheckoutForm from "../checkoutForm";
+import { removeAllBooks } from "../../actions/shopCart.action";
 
 class BookList extends React.Component {
   constructor(props) {
@@ -30,8 +32,9 @@ class BookList extends React.Component {
   }
 
   onFormFinished = () => {
-    alert(this.state.email);
-
+    alert("Compra Finalizada!");
+    this.props.removeAllBooks();
+    this.setState({modalOpen:false});
   }
 
   render() {
@@ -77,4 +80,4 @@ class BookList extends React.Component {
 }
 
 
-export default BookList;
+export default connect(null,{removeAllBooks})(BookList);
