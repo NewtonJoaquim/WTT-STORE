@@ -35,6 +35,96 @@
       "name": "Mean",
       "price": 29.90,
       "description": " Já pensou em desenvolver aplicações web ricas com recursos complexos, extremamente performáticos e robustos? É isso que você conseguirá fazer com a stack MEAN. Unindo várias das principais tecnologias do mercado, como o MongoDB, Express, Angular e Node.js em cima da linguagem JavaScript, é possível criar aplicações em um curto espaço de tempo em uma linguagem sobre a qual todo desenvolvedor web possui algum conhecimento. Neste livro completíssimo, Flávio Almeida vai ensinar a desenvolver com essa poderosa stack, passando pelos problemas encontrados no dia a dia, destrinchando cada um dos seus elementos fundamentais e indo até o deploy e o teste da aplicação. É um livro que todo desenvolvedor web precisa ler. "
+    },
+    {
+      "code":7,
+      "name": "Xamarin Forms e MVVM",
+      "price": 29.90,
+      "description": " Desenvolver aplicativos multiplataformas se tornou uma tarefa muito mais simples com Xamarin e com Xamarin Forms, frameworks para desenvolvimento de aplicações mobile. São ferramentas com boa estabilidade e consistência, com uma curva de aprendizado muito tênue. O desenvolvimento de páginas para os dispositivos pode ser feito em arquivos XAML e/ou por meio de classes C#, com diversos recursos, como layout e gerenciadores de conteúdo, entre outros que você conhecerá aqui. Neste livro, Everton Coimbra demonstra na prática como criar uma aplicação para iOS e Android com Xamarin e Xamarin Forms, utilizando a linguagem C#. Você vai desenvolver um projeto de exemplo que lidará com cadastro, imagens e base de dados, aplicando o modelo MVVM (Model, View, ViewModel). Para o acesso à base de dados, será feito uso do Entity Framework Core, API da Microsoft para persistência de objetos em um paradigma relacional. O autor ainda complementa o material com a implementação de serviços REST em um servidor Web, para serem consumidos em sua aplicação Xamarin. Tudo isso em uma arquitetura bem elaborada e flexível, que você poderá comprovar. "
+    },
+    {
+      "code":8,
+      "name": "Cordova avançado e PhoneGap ",
+      "price": 29.90,
+      "description": " Construir um aplicativo híbrido com Cordova e PhoneGap vai muito além de simplesmente codificar um HTML com JavaScript, ou mesmo usar um framework popular do mercado. É preciso uma base sólida de conhecimento nos mínimos detalhes para poder construir um aplicativo na íntegra e entregar um resultado profissional. Neste livro, Diogo Machado se volta aos profissionais da área de tecnologia que já possuam uma experiência básica com Cordova e PhoneGap, mas que desejam expandir suas possibilidades e tornar suas aplicações mais robustas. Ao acompanhar a criação de um projeto completo, você verá como utilizar os principais plug-ins, integrar a plataforma Firebase, construir elementos visuais do zero usando código web e, o melhor, com todo o processo de publicação detalhado em Android e iOS. "
+    },
+    {
+      "code":9,
+      "name": "Ionic Framework ",
+      "price": 29.90,
+      "description": " Com a crescente difusão dos SmartPhones, surgiu uma grande quantidade de Sistemas Operacionais, o que por consequência aumentava a dificuldade em padronizar uma linha de desenvolvimento de aplicações que fossem portáveis ou multiplataforma. Por conta disto, surgiram os frameworks para compilação híbrida de aplicativos sendo desenvolvidos em uma única linguagem. Hoje, sabe-se que isso é possível com a mesclagem de HTML, JavaScript e CSS, basicamente. Dentro deste contexto, uma ferramenta se destaca, não apenas por compilar de forma híbrida, mas por oferecer diversos componentes, suporte a debugs e fácil aprendizado através de linguagens já conhecidas. Este é o poderoso Ionic Framework. Nele é possível utilizar componentes responsivos e atrativos para o desenvolvimento dos aplicativos, com a possibilidade de compilação e fácil instalação nas diferentes plataformas mobile. Seu foco é o front view dos aplicativos, isto é, fornece componentes para o desenvolvimento da interface dos aplicativos, fazendo o controle através do AngularJS e sendo compilado pelo PhoneGap. Neste livro, Adrian Gois explora o Ionic Framework em sua versão 1.0, orientando o leitor desde sua instalação, com a preparação do ambiente de desenvolvimento, passando pelos comandos básicos até chegar a aspectos avançados, utilizando Angular 1. Por meio da criação de um aplicativo de exemplo, que será um Cardápio Móvel, você vai evoluir seu desenvolvimento conforme aprende a teoria sobre Ionic e insere novos componentes na prática. "
+    },
+    {
+      "code":10,
+      "name": "Xamarin Forms ",
+      "price": 29.90,
+      "description": " O Xamarin surgiu como uma inovação para o ramo do desenvolvimento móvel, tornando mais fácil e produtiva a entrega de aplicativos móveis para diferentes plataformas. Em conjunto com o Visual Studio, o Xamarin nos permite criar aplicativos móveis usando a linguagem C# e a plataforma .NET, a fim de ter a experiência de desenvolvimento híbrido para os principais dispositivos com iOS, Android e Windows Phone. Neste livro, Everton Coimbra traz, na prática, o desenvolvimento de aplicações multiplataforma com o Xamarin e Xamarin Forms, apresentando conceitos como componentes, ações, acesso a bases de dados via SQLite, mapas e muito mais. Explorando as potencialidades do Xamarin e de tecnologias afins, você acompanhará a construção de um aplicativo para diferentes dispositivos móveis a partir de uma mesma estrutura de código. Edição atualizada: atualização dos exemplos para o Visual Studio 2017 e Xamarin 3. "
+    },
+    {
+      "code":11,
+      "name": "Aplicações mobile híbridas com Cordova e PhoneGap ",
+      "price": 29.90,
+      "description": " Mobile é a plataforma do futuro, e as Apps são parte importante desse cenário. Mas programar pensando no mundo multiplataforma de hoje é trabalhoso e custoso, sobretudo para quem vem da Web e está acostumado à portabilidade do HTML, do CSS e do JavaScript. Neste livro, Sérgio Lopes mostra o Cordova, a solução para Apps híbridas mais usada no mundo. Escreva um único código baseado em HTML5 e tenha Apps de verdade para iOS, Android e Windows Phone. Com projetos práticos, você vai ver Cordova desde o início até casos complexos de integração com hardware. Vai entender onde o PhoneGap se encaixa e até criar uma App com Ionic. "
+    },
+    {
+      "code":11,
+      "name": "Aplicações mobile híbridas com Cordova e PhoneGap ",
+      "price": 29.90,
+      "description": " Mobile é a plataforma do futuro, e as Apps são parte importante desse cenário. Mas programar pensando no mundo multiplataforma de hoje é trabalhoso e custoso, sobretudo para quem vem da Web e está acostumado à portabilidade do HTML, do CSS e do JavaScript. Neste livro, Sérgio Lopes mostra o Cordova, a solução para Apps híbridas mais usada no mundo. Escreva um único código baseado em HTML5 e tenha Apps de verdade para iOS, Android e Windows Phone. Com projetos práticos, você vai ver Cordova desde o início até casos complexos de integração com hardware. Vai entender onde o PhoneGap se encaixa e até criar uma App com Ionic. "
+    },
+    {
+      "code":12,
+      "name": "Progressive Web Apps ",
+      "price": 29.90,
+      "description": " PWA é um acrônimo para Progressive Web Apps, ou Aplicações Web Progressivas. Com o passar dos dias, mais e mais sistemas mobile e navegadores suportam os requisitos PWA, com uma expectativa real de que a Progressive Enhancement, ou melhoria progressiva, deixe de apenas pertencer às boas práticas de desenvolvimento web e passe a ser norma. Desenvolver com melhoria progressiva é um paradigma em que a aplicação deverá estar disponível para todos, sejam usuários de microcomputadores ou smartphones, com browsers atualizados ou obsoletos, com conexão à internet ou não, propiciando uma experiência de acesso contínuo sem nenhum tipo de restrição tecnológica. Neste livro, Guilherme Pontes disseca a construção de uma aplicação progressiva com React e outras ferramentas, como o Pure.css e o servidor Nginx. Depois de ser apresentado ao mundo das PWAs, você passará por todos os passos da construção da aplicação, evoluindo-a com as mãos na massa, vendo de perto cada tecnologia adotada. No final, você terá um exemplo de PWA funcional e bem codificado, com todos os detalhes dos requisitos do desenvolvimento até a publicação em um ambiente real de produção. As versões das ferramentas utilizadas são: React 15.6.1; Node.JS 6.13.0; Pure.CSS 1.0.0; Nginx 1.12.2; Webpack 3.0.0 "
+    },
+    {
+      "code":13,
+      "name": "C# e Visual Studio",
+      "price": 29.90,
+      "description": " As tradicionais aplicações desktop que muito sucesso fizeram há alguns anos ainda possuem espaço vital no mercado e na arquitetura tecnológica de muitas empresas. Conhecer bem essas tecnologias e saber desenvolver com elas pode ser o diferencial para a escolha adequada em um projeto. Neste livro Everton Coimbra de Araújo ensina como desenvolver aplicações desktop através do C# e o Visual Studio, mostrando conceitos fundamentais para qualquer profissional que deseja versatilidade na carreira. "
+    },
+    {
+      "code":14,
+      "name": "Programação funcional em .NET ",
+      "price": 29.90,
+      "description": " Apesar de sua elegância e produtividade, durante muito tempo a programação funcional foi deixada de lado pela maioria dos programadores, mas hoje frequentemente enfrentamos momentos em que a equipe precisa ser altamente produtiva e está cada vez mais comum a necessidade de escrevermos programas que processam grandes conjuntos de dados de forma distribuída entre processadores ou computadores. Nunca houve época melhor para aprender programação funcional do que agora. Neste livro, Gabriel Schade explorará os motivos do ganho recente de popularidade da programação funcional, mudança principalmente graças à incorporação de diversos conceitos funcionais em linguagens populares como Java e C#. Utilizando F#, a linguagem voltada a este paradigma na plataforma .NET, sempre fazendo o paralelo em C# para ajudá-lo na aprendizagem, você verá exemplos com estruturas de dados imutáveis, funcionalidades importantes do paradigma funcional, através da criação de uma aplicação web. O livro vem desmistificar o paradigma funcional com exemplos práticos e contextos reais, para que seja cada vez mais popular entre os desenvolvedores que desejam explorar este novo universo. Edição atualizada: agora todos os projetos do livro utilizam a plataforma .NET Core, a nova plataforma open-source e multiplataforma do .NET. O livro foi totalmente atualizado para utilizarmos a tecnologia mais recente da Microsoft. Além disso você poderá construir aplicações multiplataformas em .NET utilizando os sistemas operacionais Linux e Mac. "
+    },
+    {
+      "code":15,
+      "name": "Machine Learning ",
+      "price": 29.90,
+      "description": " Nós, como seres humanos, sabemos facilmente distinguir uma informação de outra, e por meio da experiência, podemos tirar conclusões em decisões simples, como reconhecer se um animal é um cão ou um porco, se um e-mail é spam ou não, decidir se uma movimentação bancária é uma fraude. O computador pode aprender de forma similar, em um processo chamado de classificação dentro da área de machine learning. A classificação é uma ferramenta para responder perguntas, mas antes é preciso saber quais e quantas perguntas fazer, a partir de quais informações, e ainda, como interpretar as respostas. Neste livro, Guilherme Silveira e Bennett Bullock mostram como o computador aprende com uma base de dados e algoritmos para responder perguntas do dia a dia, com uma aplicabilidade crescente no mundo dos negócios, cada vez mais apurada, conforme mais dados estão disponíveis. Por meio de variáveis numéricas e categóricas, você vai treinar modelos matemáticos computacionais em Python que nos ajudam a tomar decisões e prever comportamentos, como quando um funcionário está próximo de pedir demissão ou qual será o próximo passo de um usuário em um site. "
+    },
+    {
+      "code":16,
+      "name": "Big Data ",
+      "price": 29.90,
+      "description": " Estamos na era dos dados. Não importa qual seja a sua área de atuação, uma palavra atualmente em evidência é: Big Data. Podemos encontrar casos de uso em que esse conceito permitiu a redução do número de fraudes, redução de custos na produção, eficiência energética, aumento de segurança, entre outros benefícios tão almejados em diversos domínios. Muito embora o interesse esteja em alta, Big Data ainda é um termo incipiente, gerando incertezas sobre sua definição, características, aplicabilidade e desafios. Como obter dados de diferentes fontes? Como extrair valor a partir dos dados? Qual a infraestrutura necessária para criar uma solução de Big Data? Quais habilidades são necessárias para atuar com Big Data em seu projeto? Neste livro, Rosangela Marquesone apresenta as tecnologias e soluções de Big Data, em uma abordagem conceitual que detalha as características e capacidades de cada uma delas. Você verá as principais fases de um projeto de Big Data, desde a captura, o armazenamento, o processamento, análise, até a visualização de dados. "
+    },
+    {
+      "code":17,
+      "name": "Apache Lucene ",
+      "price": 29.90,
+      "description": " Estamos na Era Digital. Geramos dados a todo o momento, notícias, livros, e-mails, cadastros, logs, redes sociais, trânsito - tudo o que a sociedade faz gera algum tipo de informação. Em função dessa grande quantidade de dados e do pouco tempo disponível para fazer nossas tarefas, nasceram os sistemas de busca, que fazem parte de uma área da computação chamada de Recuperação da Informação. A informação deve ser fácil de encontrar para ser útil e é nesse ponto que os buscadores tornam o trabalho mais produtivo. A internet mudou a forma como vivemos e hoje utilizamos as ferramentas de busca para tudo no nosso cotidiano. Neste livro, Marco Reis fala sobre sistemas de busca e as tecnologias usadas para resolver esse problema. Tendo em vista a necessidade de informação do usuário moderno, que está acostumado a encontrar o que procura facilmente em ferramentas como o Google, sabemos que em nossos sistemas precisamos apresentar a mesma funcionalidade de busca. Você aprenderá como criar motores de busca com o Lucene, com um aprofundamento em recursos avançados, incluindo o uso de outras ferramentas, como o Hibernate Search e o Apache Nutch, e técnicas como web crawling e web scraping. "
+    },
+    {
+      "code":18,
+      "name": "MongoDB ",
+      "price": 29.90,
+      "description": " O modelo dos bancos de dados relacionais já existe há muitos anos. No entanto, cada vez mais as aplicações modernas precisam aliar alta escalabilidade com suporte a persistência de alta quantidade de informações, e é justamente por isso que o modelo relacional começa a deixar a desejar e as alternativas NOSQL passam a surgir. Atingir alta escalabilidade com bancos de dados relacionais exige infraestruturas caríssimas, que podem ser evitadas com outros paradigmas. É aí que entra o MongoDB, famoso banco de dados orientado a documentos, desenvolvido pela 10gen e principal alternativa para aliar a alta escalabilidade com facilidade de uso. Nesse livro, Fernando Boaglio vai ensiná-lo como trabalhar com o MongoDB, principal banco de dados orientado a documentos do mercado. Com ele é possível desenvolver aplicações que atingem alta escalabilidade e de forma tão simples quanto trabalhar com os tradicionais banco de dados relacionais. "
+    },
+    {
+      "code":19,
+      "name": "Armazenando dados com Redis ",
+      "price": 29.90,
+      "description": " Saber usar a melhor ferramenta para cada problema é determinante para qualquer pessoa ligada à área de tecnologia e, atualmente, com o desenvolvimento de novos bancos de dados, as opções para essa área aumentaram bastante, trazendo muito mais poder às aplicações. Neste livro, Rodrigo Lazoti mostrará por que trabalhar com o Redis e bancos de dados chave/valor podem trazer enormes ganhos de performance para sua aplicação, além de também ser a ferramenta ideal para diversos sistemas. Você vai aprender a trabalhar com estruturas clássicas e modernas de dados e armazenamento, filas, listas, conjuntos, além da configurações de mecanismos de publish e subscribe e, claro, como usar todo o poder da API do Redis. "
+    },
+    {
+      "code":20,
+      "name": "PL/SQL",
+      "price": 29.90,
+      "description": " Durante o dia, milhões de dados trafegam por servidores ao redor do mundo. São informações de todo tipo e muitas delas precisam ser preservadas. Qual a forma de fazer isso? Persistindo os dados. Neste livro, Eduardo Gonçalves mostra o poder da linguagem PL/SQL e como você pode conseguir um alto grau de produtividade e performance para as suas aplicações. Os leitores iniciantes terão contato com conceitos sobre a estrutura da linguagem PL/SQL e suas características, e criarão programas, dos mais simples até os mais complexos, para atender às mais diversas necessidades. Para os já experientes, ajudará como fonte de referência e para atualizar conceitos e técnicas da linguagem. "
     }
   ]
 }
