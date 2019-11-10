@@ -11,6 +11,10 @@ class ShoppingCart extends React.Component {
         console.log(this.props.shopCart);
     }
 
+    onRemoveClicked(id){
+        this.props.removeBook(id);
+    }
+
     render() {
         return (
             <div>
@@ -20,7 +24,7 @@ class ShoppingCart extends React.Component {
                             <li key={element.id} style={{ padding: 10 }}>
                                 {element.name} ({element.price})
                             </li>
-                            <button><RemoveIcon /></button>
+                            <button onClick={() => this.onRemoveClicked(element.id)}><RemoveIcon /></button>
                         </div>
                     )
                 })}
