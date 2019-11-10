@@ -31,3 +31,8 @@ Fork this repo and implement your solution. Then send us a pull request to this 
 
 Good luck!
 We are waiting for you on our team!
+
+## (EDIT) Running the Project
+- Navigate do the bookstore folder with `cd bookstore`
+- Install npm dependencies with `npm install`
+- Run project with `npm start`
